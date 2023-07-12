@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Launched the Application]]>
+    </line>
+    <line>
+      <![CDATA[Entered User Name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Login' Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Login' Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Logout' Button]]>
+    </line>
+    <line>
+      <![CDATA[Closed Browser]]>
+    </line>
+    <line>
+      <![CDATA[Launched the Application]]>
+    </line>
+    <line>
+      <![CDATA[Entered User Name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Login' Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Login' Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Logout' Button]]>
+    </line>
+    <line>
+      <![CDATA[Closed Browser]]>
+    </line>
+    <line>
+      <![CDATA[Closed Browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Learn Cucumber Automation" duration-ms="35429" started-at="2023-07-12T09:48:38 EDT" finished-at="2023-07-12T09:49:14 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="nopCommerce_testrunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.nopCommerce.TestRunner.nopCommerce_testrunner@57d5872c]" name="feature" class="com.nopCommerce.TestRunner.nopCommerce_testrunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="35429" started-at="2023-07-12T09:48:38 EDT" finished-at="2023-07-12T09:49:14 EDT">
+      <class name="com.nopCommerce.TestRunner.nopCommerce_testrunner">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.nopCommerce.TestRunner.nopCommerce_testrunner@57d5872c]" name="initialize" is-config="true" duration-ms="50" started-at="2023-07-12T09:48:38 EDT" finished-at="2023-07-12T09:48:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.nopCommerce.TestRunner.nopCommerce_testrunner@57d5872c]" name="testSetUp" is-config="true" duration-ms="0" started-at="2023-07-12T09:48:39 EDT" finished-at="2023-07-12T09:48:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.nopCommerce.TestRunner.nopCommerce_testrunner@57d5872c]" name="classSetUp" is-config="true" duration-ms="227" started-at="2023-07-12T09:48:39 EDT" finished-at="2023-07-12T09:48:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.nopCommerce.TestRunner.nopCommerce_testrunner@57d5872c]" name="feature" duration-ms="35027" started-at="2023-07-12T09:48:39 EDT" description="Run Feature" data-provider="features" finished-at="2023-07-12T09:49:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login to the application as Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launched the Application]]>
+            </line>
+            <line>
+              <![CDATA[Entered User Name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Login' Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Login' Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Logout' Button]]>
+            </line>
+            <line>
+              <![CDATA[Closed Browser]]>
+            </line>
+            <line>
+              <![CDATA[Launched the Application]]>
+            </line>
+            <line>
+              <![CDATA[Entered User Name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Login' Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Login' Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Logout' Button]]>
+            </line>
+            <line>
+              <![CDATA[Closed Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:com.nopCommerce.TestRunner.nopCommerce_testrunner@57d5872c]" name="classTearDown" is-config="true" duration-ms="15" started-at="2023-07-12T09:49:14 EDT" finished-at="2023-07-12T09:49:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.nopCommerce.TestRunner.nopCommerce_testrunner@57d5872c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2023-07-12T09:49:14 EDT" finished-at="2023-07-12T09:49:14 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.nopCommerce.TestRunner.nopCommerce_testrunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Learn Cucumber Automation -->
+</testng-results>
